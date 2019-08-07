@@ -1,0 +1,23 @@
+header{
+    display: flex;
+    background-color: #888;
+    justify-content: space-between;
+    padding: 10px;
+    color: #fff;
+
+    h1{
+        font-size: 2rem;
+        font-weight: bold;
+    }
+}
+nav ul {
+    display: flex;
+    li a{
+        color: #fff;
+        margin-left: 20px;
+        text-decoration: none;
+        &:before{
+            content: "\2713  ";
+        }
+    }
+}

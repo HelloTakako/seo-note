@@ -1,0 +1,13 @@
+.counter {
+  margin-bottom: 20px;
+}
+
+#count {
+  font-size: 2rem;
+  color: green;
+  
+  &:before{
+    content:"Character Length: ";
+    color: black;
+  }
+}

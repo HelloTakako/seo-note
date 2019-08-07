@@ -12,18 +12,12 @@ const Counter = () => {
         ;
     }
     return(
-        <div>
-        <p>
-            For...<br />
-            meta title: 50-60(max.75)<br />
-            meta description: 135-160
-        </p>
-        <div>
-            <textarea rows="8" cols="50" id="string"></textarea>
-            <button id="submit" onClick={count}>Count</button>
-        </div>
+        <div className='counter'>
+            <div>
+                <textarea rows="8" cols="50" id="string" onChange={count}></textarea>
+            </div>
 
-        <span id="count">0</span>
+            <span id="count">0</span>
         </div>
         )
     };
