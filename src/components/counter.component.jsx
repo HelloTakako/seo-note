@@ -2,7 +2,16 @@ import React from 'react';
 
 import './counter.styles.scss';
 
-const Counter = () => (
+const Counter = () => {
+    function count(e){
+        e.preventDefault();
+        const count = document.getElementById('count');
+        const string = document.getElementById('string');
+
+        count.innerText = string.value.length;
+        ;
+    }
+    return(
         <div>
         <p>
             For...<br />
@@ -11,11 +20,12 @@ const Counter = () => (
         </p>
         <div>
             <textarea rows="8" cols="50" id="string"></textarea>
-            <button id="submit">Count</button>
+            <button id="submit" onClick={count}>Count</button>
         </div>
 
         <span id="count">0</span>
         </div>
-        );
+        )
+    };
 
 export default Counter;
