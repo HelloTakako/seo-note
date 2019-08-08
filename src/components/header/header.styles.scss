@@ -16,6 +16,9 @@ nav ul {
         color: #fff;
         margin-left: 20px;
         text-decoration: none;
+        &:hover{
+            cursor: pointer;
+        }
         &:before{
             content: "\2713  ";
         }

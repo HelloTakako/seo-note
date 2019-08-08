@@ -34,6 +34,11 @@ add canonical tag:<br />
 </pre>
 </p>
 
+<h4>Basic Meta tags</h4>
+<pre>
+
+</pre>
+
 <h4>OG meta tags</h4>
 <pre>
 &lt;meta property=”og:type” content=”article” /> <br />
@@ -52,6 +57,34 @@ add canonical tag:<br />
 &lt;meta name=”twitter:site” content=”@username”><br />
 &lt;meta name=”twitter:creator” content=”@username”>
 </pre>
+<div>
+<p>SDM...Structured Data Markup</p>
+<p>Microdata...https://en.wikipedia.org/wiki/Microdata_(HTML)<br />
+Google's Rich Snippet Testing Tool<br />
+JSON-LD...https://en.wikipedia.org/wiki/JSON-LD<br/>
+</p>
+
+<h4>JSON-LD</h4>
+<pre>{`
+<script type="application/ld+json">
+{
+    "@context": {
+      "name": "http://xmlns.com/foaf/0.1/name",
+      "homepage": {
+        "@id": "http://xmlns.com/foaf/0.1/workplaceHomepage",
+        "@type": "@id"
+      },
+      "Person": "http://xmlns.com/foaf/0.1/Person"
+    },
+    "@id": "https://me.example.com",
+    "@type": "Person",
+    "name": "John Smith",
+    "homepage": "https://www.example.com/"
+  }
+</script>
+`}
+</pre>
+</div>
     </div>
 );
 
