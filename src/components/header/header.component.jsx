@@ -8,8 +8,8 @@ const Header = () => (
             <h1>SEO Note</h1>
             <nav>
                 <ul>
-                    <li><Link to="/">Home</Link></li>
-                    <li><Link to="/links/">Useful Links</Link></li>
+                    <li><Link to="/seo/">Home</Link></li>
+                    <li><Link to="seo/links/">Useful Links</Link></li>
                 </ul>
             </nav>
         </header>
