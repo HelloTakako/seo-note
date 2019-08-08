@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Counter from '../../components/counter/counter.component';
-import Text from '../../components/text/text.component';
+import MetaTags from '../../components/meta-tags/meta-tags.component';
 
 import './homepage.styles.scss';
 
@@ -9,7 +9,7 @@ import './homepage.styles.scss';
 const HomePage = () => (
       <div>
         <Counter />
-        <Text />    
+        <MetaTags />    
       </div>
     );
 
