@@ -11,7 +11,9 @@ const Header = () => (
                     <li><Link to="/seo/">Meta tags</Link></li>
                     <li><Link to="/seo/robots-txt/">robots.txt</Link></li>
                     <li><Link to="/seo/htaccess/">.htaccess</Link></li>
+                    {/*<li><Link to="/seo/progressive-web-app/">PWA</Link></li> */}
                     <li><Link to="/seo/links/">Useful Links</Link></li>
+                    {/* <li><Link to="/seo/misc/">Misc</Link></li> */}
                 </ul>
             </nav>
         </header>

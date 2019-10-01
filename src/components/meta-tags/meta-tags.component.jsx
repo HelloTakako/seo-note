@@ -30,10 +30,10 @@ const MetaTags = () => (
 
         <h4>Basic Meta tags</h4>
         <pre>{`<meta charset="utf-8">
-        <title>Your Page Title</title>
-        <link rel="canonical" href="https://www.#yoursite#.com/" />
-        <meta name="description" content="Your description">
-        <meta name="viewport" content="width=device-width, initial-scale=1">`}</pre>
+<title>Your Page Title</title>
+<link rel="canonical" href="https://www.#yoursite#.com/" />
+<meta name="description" content="Your description">
+<meta name="viewport" content="width=device-width, initial-scale=1">`}</pre>
 
         <h4>OG meta tags</h4>
         <pre>

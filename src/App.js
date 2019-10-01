@@ -6,6 +6,8 @@ import Header from './components/header/header.component';
 import HomePage from './pages/homepage/homepage.component';
 import LinksPage from './pages/links/links.component';
 import RobotsTxt from './pages/robots-txt/robots-txt.component';
+import HtaccessPage from './pages/htaccess/htaccess.component';
+import Misc from './components/page-speed-insights/page-speed-insights.component';
 import Footer from './components/footer/footer.component';
 
 
@@ -19,6 +21,8 @@ function App() {
         <Route exact path="/seo/" component={HomePage} />
         <Route path="/seo/links/" component={LinksPage} />
         <Route path="/seo/robots-txt/" component={RobotsTxt} />
+        <Route path="/seo/htaccess/" component={HtaccessPage} />
+        <Route path="/seo/misc/" component={Misc} />
         </main>
         <Footer />
       </Router>

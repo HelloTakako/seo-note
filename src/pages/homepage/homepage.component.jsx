@@ -9,7 +9,7 @@ import './homepage.styles.scss';
 const HomePage = () => (
       <div>
         <Counter />
-        <MetaTags />    
+        <MetaTags />   
       </div>
     );
 
