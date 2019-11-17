@@ -10,7 +10,7 @@
     "react-router-dom": "^5.0.1",
     "react-scripts": "3.0.1"
   },
-  "homepage": "%PUBLIC_URL%/seo/",
+  "homepage": "https://hellotakako.github.io/seo/",
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "yarn run build",
