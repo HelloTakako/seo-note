@@ -15,6 +15,8 @@ const LinksPage = () => (
           <li><a href="https://icooon-mono.com/?lang=en" rel="noopener noreferrer" target="_blank">ICOOON MONO</a></li>
           <li><a href="https://fontawesome.com/" rel="noopener noreferrer" target="_blank">Font Awesome</a></li>
           <li><a href="https://www.utf8icons.com/subsets/dingbats" rel="noopener noreferrer" target="_blank">Dingbats</a></li>
+          <li><a href="https://icomoon.io/#preview-free" rel="noopener noreferrer" target="_blank">IcoMoon</a></li>
+          <li><a href="https://thenounproject.com/" rel="noopener noreferrer" target="_blank">Noun Project</a></li> 
         </ul>
 
         <h4>Images compression</h4>
@@ -26,6 +28,7 @@ const LinksPage = () => (
         <ul>
           <li><a href="https://developers.google.com/speed/pagespeed/insights/" rel="noopener noreferrer" target="_blank">Google Speed Insights</a></li>
           <li><a href="https://tools.pingdom.com/" rel="noopener noreferrer" target="_blank">Pingdom Tools</a></li>
+          <li><a href="https://www.webpagetest.org/" rel="noopener noreferrer" target="_blank">WEBPAGETEST</a></li>  
         </ul>
 
         <h4>Color Pallete</h4>
@@ -38,6 +41,9 @@ const LinksPage = () => (
         <ul>       
           <li><a href="https://jsonplaceholder.typicode.com/" rel="noopener noreferrer" target="_blank">JSONPlaceholder</a></li>
         </ul>
+
+
+
       </div>
     );
 
