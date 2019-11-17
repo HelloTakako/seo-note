@@ -42,8 +42,12 @@ const LinksPage = () => (
           <li><a href="https://jsonplaceholder.typicode.com/" rel="noopener noreferrer" target="_blank">JSONPlaceholder</a></li>
         </ul>
 
+        <h4>Tips</h4>
+        <ul>       
+          <li><a href="https://web.dev/extract-critical-css/" rel="noopener noreferrer" target="_blank">Extract Critical CSS</a></li>
+        </ul>
 
-
+        
       </div>
     );
 

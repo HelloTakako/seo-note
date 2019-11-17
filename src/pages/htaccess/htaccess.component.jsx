@@ -20,8 +20,7 @@ const HtaccessPage = () => (
     </section>
         <section>
             <h3>.htaccess password protection</h3>
-            To enable .htaccecc password protection, use .htaccess. A .htpasswd file.
-            <a href="htaccess-demo" target="_blank">Demo page(password: pass)</a>
+            To enable .htaccecc password protection, use .htaccess. &amp; .htpasswd file.
             <pre>AuthType Basic<br />
             AuthName "Password Protected Area"<br />
             AuthUserFile /path/to/.htpasswd<br />
