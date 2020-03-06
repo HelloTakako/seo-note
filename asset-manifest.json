@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/seo-note/static/css/main.895a6c84.chunk.css",
-    "main.js": "/seo-note/static/js/main.3ede6480.chunk.js",
-    "main.js.map": "/seo-note/static/js/main.3ede6480.chunk.js.map",
+    "main.css": "/seo-note/static/css/main.3ed2d03b.chunk.css",
+    "main.js": "/seo-note/static/js/main.3751f125.chunk.js",
+    "main.js.map": "/seo-note/static/js/main.3751f125.chunk.js.map",
     "runtime~main.js": "/seo-note/static/js/runtime~main.b11fac08.js",
     "runtime~main.js.map": "/seo-note/static/js/runtime~main.b11fac08.js.map",
     "static/js/2.0c53e496.chunk.js": "/seo-note/static/js/2.0c53e496.chunk.js",
     "static/js/2.0c53e496.chunk.js.map": "/seo-note/static/js/2.0c53e496.chunk.js.map",
     "index.html": "/seo-note/index.html",
-    "precache-manifest.16e6ba006a49f796b9dcdffc258223c5.js": "/seo-note/precache-manifest.16e6ba006a49f796b9dcdffc258223c5.js",
+    "precache-manifest.8e49a45706dd1049d2d1c9cac4410ba3.js": "/seo-note/precache-manifest.8e49a45706dd1049d2d1c9cac4410ba3.js",
     "service-worker.js": "/seo-note/service-worker.js",
-    "static/css/main.895a6c84.chunk.css.map": "/seo-note/static/css/main.895a6c84.chunk.css.map"
+    "static/css/main.3ed2d03b.chunk.css.map": "/seo-note/static/css/main.3ed2d03b.chunk.css.map"
   }
 }
